@@ -1,0 +1,48 @@
+@charset 'utf-8'; 
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol,li {list-style: none; margin: 0; padding: 0;}
+
+/*top banner*/
+#top_banner {width: 100%; height: 70px; margin: 0 auto; 
+background-color: pink; display:flex; }
+.top_banner_left_wrap {width: 100%; height: 100%; background-color: antiquewhite;}
+.top_banner_left {width: 490px; height: 100%; background-color: rgb(144, 144, 224); float: right;
+cursor: pointer;}
+.top_banner_right_wrap {width: 100%; height: 100%; background-color: palevioletred;}
+.top_banner_right {width: 490px; height: 100%; background-color: #eda8a8; float: left; 
+position: relative; cursor: pointer;}
+.top_banner_right > span {position: absolute; top: 0; right: 0;
+}
+
+/*header*/
+header {width: 100%; height: 178px; margin: 0; padding: 0; }
+
+/*header_top*/
+#header_top {width: 100%; height: 33px; 
+border:1px solid #ccc; border-top: none; border-left: none; border-right: none;}
+.header_top_nav {width: 980px; background-color: rgb(158, 158, 219);
+display: flex; justify-content: space-between; margin: 0 auto; height: 100%;}
+.header_top_left {width: 250px; display: flex;}
+.header_top_right {width: 490px; display:flex;  justify-content:flex-end; }
+
+/*header_mid*/
+#header_mid {width: 980px; height: 99px; margin: 0 auto;
+background-color: darkgray; display: flex; align-items: center;}
+#header_mid > #logo {width: 192px; height: 28px; background-color: #eda8a8;}
+#header_mid > #logo > img {width: 100%; height: 100%;}
+
+/*header_search*/
+#header_search {width: 788px; background-color: beige;
+display: flex; flex-direction: column; height: 50%; align-items:  flex-end;}
+.header_search_bar {width:400px; 
+display: flex; justify-content: flex-end;}
+.header_search_nav {width: 400px; display: flex; justify-content: flex-end;}
+.header_search_nav > li{font-size: 11px; }
+
+/*header_nav*/
+#header_bottom {width: 100%; height: 46px; background-color: rgb(187, 139, 235); 
+border-top: 2px solid #222;}
+#nav {width: 980px; height: 44px; margin: 0 auto; display: flex; justify-content: flex-end;}
+.category1 {width: 320px; background-color: aliceblue;}
+.category2 {width: 500px; background-color: rgb(125, 172, 212);}
